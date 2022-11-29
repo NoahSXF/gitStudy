@@ -26,4 +26,13 @@ public class TestController {
         map.put("王五", 21);
         return map;
     }
+
+    @RequestMapping("queryList")
+    public Map<String, Object> queryList3() {
+        Map<String, Object> map = new HashMap<>();
+        map.put("张三", 18);
+        map.put("李四", 20);
+        map.put("王五", 21);
+        return map;
+    }
 }
